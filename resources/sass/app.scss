@@ -12,3 +12,26 @@
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
+strong{
+  display: block;
+  color: $green;
+  background-color: $red;
+  font-size: 2em;
+}
+.vote, .answer{
+  width : 60px;
+  height : 60px;
+}
+.status{
+  &.answered{
+    border: 2px solid $green;
+    color : $green;
+  }
+  &.answered-accepted{
+    background-color: $green;
+    color: rgb(yellow, green, magenta);
+  }
+}
+.view{
+  margin-top: 10px;
+}
